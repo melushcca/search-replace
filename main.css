@@ -73,9 +73,7 @@ textarea {
   height: 350px;
   border: none;
   border-radius: 5px;
-  -webkit-box-shadow: inset 6px 6px 75px -17px rgba(51,3,NaN,0.79);
-  -moz-box-shadow: inset 6px 6px 75px -17px rgba(51,3,NaN,0.79);
-  box-shadow: inset 6px 6px 75px -17px rgba(51,3,NaN,0.79);
+  background-color: #e7e7e7;
 }
 
 .textarea-box {
