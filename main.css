@@ -73,10 +73,22 @@ textarea {
   height: 350px;
   border: none;
   border-radius: 5px;
-  background-color: #e7e7e7;
 }
 
 .textarea-box {
+  text-align: center;
+}
+
+button {
+  width: 20%;
+  height: 50px;
+  color: #e7e7e7;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+}
+
+.button-box {
   text-align: center;
 }
 
