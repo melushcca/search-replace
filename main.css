@@ -1,1 +1,57 @@
 
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.title-description {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.input-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first-step {
+  width: 50%;
+  background-color: red;
+  float:left;
+}
+
+.second-step {
+  width: 50%;
+  background-color:yellow;
+  float: left;
+}
+
+.output-container {
+  display:block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.third-step {
+  width: 100%;
+}
+
