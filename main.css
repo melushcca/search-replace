@@ -3,7 +3,7 @@ body {
   height: 100vh;
   background: rgba(73,155,234,1);
   background: -moz-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,227,172,0.95) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,227,172,0.95)));
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,1)), color-   stop(100%, rgba(32,227,172,0.95)));
   background: -webkit-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,227,172,0.95) 100%);
   background: -o-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,227,172,0.95) 100%);
   background: -ms-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(32,227,172,0.95) 100%);
@@ -16,6 +16,7 @@ h1 {
   font-weight: 600;
   font-size: 35px;
   text-align: center;
+  color: #e7e7e7;
 }
 
 h3 {
@@ -23,12 +24,14 @@ h3 {
   font-weight: 300;
   font-size: 20px;
   text-align: center;
+  color: #e7e7e7;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   text-align: center;
+  color: #e7e7e7;
 }
 
 .title-description {
@@ -70,6 +73,8 @@ textarea {
   height: 350px;
   border: none;
   border-radius: 5px;
+  -webkit-box-shadow: inset 6px 6px 75px -17px rgba(51,3,NaN,0.79);
+  -moz-box-shadow: inset 6px 6px 75px -17px rgba(51,3,NaN,0.79);
   box-shadow: inset 6px 6px 75px -17px rgba(51,3,NaN,0.79);
 }
 
