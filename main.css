@@ -70,6 +70,7 @@ textarea {
   height: 350px;
   border: none;
   border-radius: 5px;
+  box-shadow: inset 6px 6px 75px -17px rgba(51,3,NaN,0.79);
 }
 
 .textarea-box {
