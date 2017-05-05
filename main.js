@@ -1,18 +1,18 @@
 document.getElementById('myBtn').addEventListener('click', function() {
-  var textarea = document.getElementById('myTextarea-doc').value.split('\n'); //array
-  var find = document.getElementById('myTextarea-words').value.split('\n'); //array
-  var re = new RegExp([find], 'g'); // RegEx
-  var replace = ''; // string
-  var newName = textarea.toString().replace(re, replace); //convert array to string and find and replace;
+var brands = document.getElementById('myTextarea-words').value.split('\n');  
+var articles = document.getElementById('myTextarea-doc').value.split('\n');
+var newName = [];
 
-  document.getElementById('result').innerHTML = newName.split(',').join('\n');
 
-  console.log(textarea); //array
-  console.log(find); //array
-  console.log(re);
-  console.log(replace); //string
-  console.log(newName);
-});
+articles.forEach(function(article) {
+  brands.forEach(function(brand) {
+    article = article.replace(brand, ' ').replace('  ', ' ');
+  })
+  newName.push(article);
+})
+
+document.getElementById('result').innerHTML = newName.join('\n');
+})
 
 
 
