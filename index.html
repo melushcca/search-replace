@@ -8,7 +8,7 @@
   <main>
     <section class="title-description">
       <h1>Search & Replace</h1>
-      <p>Case: We have a File with 1000 of Strings, let's say they are articlenames (ex. "Article Brand Model xy") Then you have another File with multiple brands. Now we want to replace all of our brands in the file with our articlenames (ex. result: "Article Model xy")</p>
+      <p>Case: We have a File with 1000 of Strings, let's say they are productnames (ex. "Product Brand Model xy") Then you have another File with multiple brands. Now we want to replace all of our brands in the file with our productnames (ex. result: "Product Model xy")</p>
     </section>
     <section class="input-container">
       <div class="input-description">
@@ -16,28 +16,30 @@
           <h3>1. Step</h3>
           <p>Copy & Paste here the words you want to search and replace (the brands)</p>
           <div class="textarea-box">
-            <textarea id="myTextarea-words" cols="35"></textarea> 
+            <textarea id="myTextarea-words" cols="35"></textarea>
           </div>
         </div>
         <div class="second-step">
           <h3>2. Step</h3>
-          <p>Copy & Paste here the Text where you want the words be replaced in. (the articlenames)</p>
+          <p>Copy & Paste here the text where you want the words be replaced in. (the productname)</p>
           <div class="textarea-box">
-            <textarea id="myTextarea-doc" cols="35"></textarea> 
-          </div> 
+            <textarea id="myTextarea-doc" cols="35"></textarea>
+          </div>
         </div>
       </div>
     </section>
     <section class="output-container">
       <div class="thrid-step">
         <h3>3. Step</h3>
-        <p>When you did Copy & Paste your data from the first and second Step click Start to run the Search & Replace programm.</p>
+        <p>When you did Copy & Paste your data from the first and second step please click start.</p>
         <div class="button-box">
           <button type="button" id="myBtn" >Start</button>
+          <h3 class="title-output">Output:</h3>
           <textarea id="result"></textarea>
         </div>
       </div>
     </section>
+    <p class="information">made by Melissa Santos</p>
   </main>
   <script src="main.js"></script>
 </body>
