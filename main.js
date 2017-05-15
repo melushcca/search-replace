@@ -11,7 +11,7 @@ articles.forEach(function(article) {
   newName.push(article);
 })
 
-document.getElementById('result').innerHTML = newName.join('\n');
+document.getElementById('result').innerHTML = newName.join('\n').trim();
 })
 
 
