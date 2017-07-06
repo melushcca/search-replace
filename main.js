@@ -7,7 +7,7 @@ var newName = [];
 articles.forEach(function(article) {
   brands.forEach(function(brand) {
     article = article.replace(new RegExp('\\' + brand + '\\b', 'g'), '').replace('  ', ' ').trim();
-    console.log(article.replace(new RegExp('\\' + brand + '\\b', 'g'), '').replace('  ', ' ').trim();)
+    console.log(RegExp);
   })
   newName.push(article);
 })
