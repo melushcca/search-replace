@@ -8,6 +8,11 @@ articles.forEach(function(article) {
   brands.forEach(function(brand) {
     article = article.replace(new RegExp('\\' + brand + '\\b', 'g'), '').replace('  ', ' ').trim();
     console.log(article);
+    match = article.exec(articles);
+    while (match != null) {
+    console.log(match[0])
+    match = article.exec(articles);
+    }
   })
   newName.push(article);
 })
