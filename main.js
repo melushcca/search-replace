@@ -6,7 +6,14 @@ var newName = [];
 
 articles.forEach(function(article) {
   brands.forEach(function(brand) {
-    article = article.replace(new RegExp('\\b' + brand + '\\b', 'g'), '').replace('  ', ' ').trim();
+    // article = article.replace(new RegExp('\\' + brand + '\\b', 'g'), '').replace('  ', ' ').trim();
+    article = article
+        .replace(new RegExp('\\b' + brand + '\\b', 'g'), '')
+        .replace(/[\u00BD\u00BE\u00B0\u00BC\u0040\u0021\u0025\u002A\u0028\u0029\u00B2\u003D\u00AE]/g,'')
+        .replace(/[\u002C]/g, '.')
+        .replace(/[\u2013]/g, '-')
+        .replace('  ', ' ')
+        .trim();
   })
   newName.push(article);
 })
